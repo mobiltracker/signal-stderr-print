@@ -30,7 +30,7 @@ pub async fn handle_signals(signals: Signals) {
                 eprintln!("Received SIGUSR1");
             }
             _ => {
-                eprintln!("unkonwn signal {:?}", signal);
+                eprintln!("unknown signal {:?}", signal);
             }
         }
     }
